@@ -26,6 +26,13 @@ alert( `Hello, ${namee}!` ); // Hello, John!
 // embed an expression
 alert( `the result is ${1 + 2}` ); // the result is 3
 
+
+
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("trial").innerHTML = text.length;
+
+
+// console.log(`The length of the string is: ${text.length}`);
        /* console.log("Hello World")
 
         let name = "John";
