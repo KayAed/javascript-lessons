@@ -48,6 +48,12 @@ let textX = text1.concat(" ", text2, " ", text3);
 
 document.getElementById("conct1").innerHTML = textX;
 
+//start of string extraction methods
+let fruitList = "Orange, Pineapple, Banana, Kiwi";
+let part = fruitList.slice(-21, -4);
+
+document.getElementById("slice1").innerHTML = part;
+
 // console.log(`The length of the string is: ${text.length}`);
        /* console.log("Hello World")
 
