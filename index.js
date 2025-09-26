@@ -12,6 +12,20 @@ for (const button of buttons) {
     button.addEventListener("click", createParagraph);
 }
 
+let str = "Hello";
+let str2 = 'Single quotes are ok too';
+let phrase = `can embed another ${str}`;
+
+console.log(phrase);
+
+let namee = "John";
+
+// embed a variable
+alert( `Hello, ${namee}!` ); // Hello, John!
+
+// embed an expression
+alert( `the result is ${1 + 2}` ); // the result is 3
+
        /* console.log("Hello World")
 
         let name = "John";
