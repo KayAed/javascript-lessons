@@ -31,6 +31,13 @@ alert( `the result is ${1 + 2}` ); // the result is 3
 let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 document.getElementById("trial").innerHTML = text.charCodeAt(17);
 
+const institutionName = "Blackbox Technology Systems Ltd";
+let letter = institutionName.at(13);
+
+document.getElementById("trial2").innerHTML=letter;
+
+
+//letter = institutionName[20]; //another way to get a specific letter.
 
 // console.log(`The length of the string is: ${text.length}`);
        /* console.log("Hello World")
