@@ -57,6 +57,13 @@ document.getElementById("slice1").innerHTML = part; */
 
 document.getElementById("slice1").innerHTML = fruitList.substring(18, 28);
 
+let text4 = "     Hello World!     ";
+let text5 = text4.trim();
+
+document.getElementById("slice1").innerHTML =
+"Length text4 = " + text4.length + "<br>Length text5 = " + text5.length; //string trim()
+
+
 
 // console.log(`The length of the string is: ${text.length}`);
        /* console.log("Hello World")
