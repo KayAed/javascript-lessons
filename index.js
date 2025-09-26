@@ -47,12 +47,16 @@ let text3 = "Boomers!";
 let textX = text1.concat(" ", text2, " ", text3);
 
 document.getElementById("conct1").innerHTML = textX;
+document.getElementById("conct1").innerHTML = textX.toUpperCase();
 
 //start of string extraction methods
 let fruitList = "Orange, Pineapple, Banana, Kiwi";
-let part = fruitList.slice(-21, -4);
+/*let part = fruitList.slice(-21, -4);//extracting strings using string slice ()
 
-document.getElementById("slice1").innerHTML = part;
+document.getElementById("slice1").innerHTML = part; */
+
+document.getElementById("slice1").innerHTML = fruitList.substring(18, 28);
+
 
 // console.log(`The length of the string is: ${text.length}`);
        /* console.log("Hello World")
