@@ -29,7 +29,7 @@ alert( `the result is ${1 + 2}` ); // the result is 3
 
 
 let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-document.getElementById("trial").innerHTML = text.charAt(17);
+document.getElementById("trial").innerHTML = text.charCodeAt(17);
 
 
 // console.log(`The length of the string is: ${text.length}`);
