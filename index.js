@@ -34,10 +34,19 @@ document.getElementById("trial").innerHTML = text.charCodeAt(17);
 const institutionName = "Blackbox Technology Systems Ltd";
 let letter = institutionName.at(13);
 
-document.getElementById("trial2").innerHTML=letter; //marks the end of the 4 methods used for extracting string characters.
+document.getElementById("trial2").innerHTML=letter; 
 
 
 //letter = institutionName[20]; //another way to get a specific letter.
+//marks the end of the 4 methods used for extracting string characters.
+
+//start of string concatenation
+let text1 = "Hellloo";
+let text2 = "World of";
+let text3 = "Boomers!";
+let textX = text1.concat(" ", text2, " ", text3);
+
+document.getElementById("conct1").innerHTML = textX;
 
 // console.log(`The length of the string is: ${text.length}`);
        /* console.log("Hello World")
