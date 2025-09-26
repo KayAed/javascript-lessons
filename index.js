@@ -34,7 +34,7 @@ document.getElementById("trial").innerHTML = text.charCodeAt(17);
 const institutionName = "Blackbox Technology Systems Ltd";
 let letter = institutionName.at(13);
 
-document.getElementById("trial2").innerHTML=letter;
+document.getElementById("trial2").innerHTML=letter; //marks the end of the 4 methods used for extracting string characters.
 
 
 //letter = institutionName[20]; //another way to get a specific letter.
