@@ -16,6 +16,7 @@ select.value === "black"
 );  */
 
 //Here, we create a calendar
+/*
 const select = document.querySelector("select");
 const list = document.querySelector("ul");
 const h1 = document.querySelector("h1");
@@ -46,6 +47,42 @@ function createCalendar(month) {
 
 select.value = "January";
 createCalendar("January");
+*/
+
+const select = document.querySelector("select");
+const html = document.querySelector("html");
+
+select.addEventListener("change", () => {
+  const choice = select.value;
+
+  // ADD SWITCH STATEMENT
+  switch (choice) {
+    case "white":
+      update("white", "black");
+      break;
+
+    case "black":
+      update("black","white");
+      break;
+
+    case "purple":
+      update("purple", "white");
+      break;
+
+    case "yellow":
+      update("yellow", "black");
+      break;
+
+    case "psychedelic":
+      update("psychedelic", "orange");
+      break;
+  }
+});
+
+function update(bgColor, textColor) {
+  html.style.backgroundColor = bgColor;
+  html.style.color = textColor;
+}
 
 
 // Function: creates a new paragraph and appends it to the bottom of the HTML body.
