@@ -1,5 +1,20 @@
-// Function: creates a new paragraph and appends it to the bottom of the HTML body.
+//js for theme changer.
+const select = document.querySelector("select");
+const html = document.querySelector("html");
+document.body.style.padding = "10px";
 
+function update(bgColor, textColor) {
+  html.style.backgroundColor=bgColor;
+  html.style.color = textColor;
+}
+
+select.addEventListener("change", () =>
+select.value === "black"
+? update("black", "white")
+: update("white", "black"),
+);
+
+// Function: creates a new paragraph and appends it to the bottom of the HTML body.
 function createParagraph() {
     const para = document.createElement("p");
     para.textContent = "You clicked the button!";
@@ -63,6 +78,14 @@ let text5 = text4.trimStart();
 document.getElementById("slice1").innerHTML =
 "Length text4 = " + text4.length + "<br>Length text5 = " + text5.length; //string trimStart()
 
+//convert strings to same case (upper or lower) before comparing them.
+function areEqualCaseInsensitive(str1, str2) {
+  return str1.toUpperCase() === str2.toUpperCase();
+}
+
+if (-1 || 0) {
+  alert( 'first' );
+}
 
 
 // console.log(`The length of the string is: ${text.length}`);
