@@ -29,15 +29,11 @@ function createCalendar(month) {
   let days = 31;
 
   // ADD CONDITIONAL HERE
-  if (month === "January" || month === "March" || month === "May" || month === "July" 
-    || month === "July" || month === "October" || month === "December") {
+  if (month === "February") {
       days = 31;
     } else if (month === "May" || month === "June" || month === "September" || month === "November") {
       days = 30;
     }
-    else {
-      days = 28;
-  }
 
   list.textContent = "";
   h1.textContent = month;
