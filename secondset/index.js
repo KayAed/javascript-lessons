@@ -1,30 +1,30 @@
-function favoriteAnimal(animal) {
+/*function favoriteAnimal(animal) {
 return animal + " is my favorite animal!"
 }
 
-console.log(favoriteAnimal("Antelope"));
+console.log(favoriteAnimal("Antelope"));*/
 
-const myNumber = Math.random();
-console.log(myNumber);
+/*const myNumber = Math.random();
+console.log(myNumber);*/
 // the random() function generates a random number between
 // 0 and up to but not including 1, and returns that number
 
-const myArray = ["I", "love", "chocolate", "houses"];
+/*const myArray = ["I", "love", "chocolate", "houses"];
 const madeAString = myArray.join(" ");
-console.log(madeAString);
+console.log(madeAString);*/
 // the join() function takes an array, joins
 // all the array items together into a single
 // string, and returns this new string
 
 
-const myText = "I am a bun";
+/*const myText = "I am a bun";
 const newString = myText.replace("bun", "sausage");
-console.log(newString);
+console.log(newString);*/
 //the replace() function takes the first string
 //and replaces it with the second string.
 
 //the blocks of code below explain code scope.
-const x = 1;
+/*const x = 1;
 
 function a() {
 const y = 2;
@@ -41,6 +41,7 @@ const para = document.createElement('p');
 document.body.appendChild(para);
 para.textContent = `Value: ${value}`;
 }
+*/
 
 //Function Library Example
 const input = document.querySelector(".numberInput");
