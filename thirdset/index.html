@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicing function creation</title>
+</head>
+<body>
+    <script>
+        //function that takes one number and returns that number + 7.
+       /* function add7(a) {
+            a = parseFloat(prompt("Input a number"));
+            return a + 7;
+        }
+
+        console.log(add7()); */
+
+        //Another way to do the above.
+        /*
+        function add7(a) {
+            return a + 7;
+        }
+        console.log(add7(9));
+        */
+
+        //function that takes 2 numbers and returns their product
+       /* function multiply(b, c) {
+            b = parseFloat(prompt("Give me a number"));
+            c = parseFloat(prompt("Another number please..."));
+            return b * c;
+        }
+
+        console.log(multiply()) */
+
+        //Another way to do the above
+        /*
+        function multipy(b, c) {
+            return b * c;
+        }
+        
+        console.log(mulitply(4, 7));
+        */
+
+        //function that takes a string and returns that string with only
+        //the first letter capitalised.
+
+        function capitalise(anyString) {
+            anyString = prompt("Type in random letters or a word!");
+            return anyString[0].toUpperCase() + anyString.substring(1);
+        }
+
+        console.log(capitalise());
+
+        //Another way to do the above
+        /*
+        function capitalise(anyString) {
+            return String(anyString).charAt(0).toUpperCase() + String(anyString).substring(1);
+        }
+        
+        console.log(capitalise(ortina));
+        //okay. it doesn't work. I would be back.
+        */
+
+        //this takes a string and returns the very last letter of that string
+        function lastLetter(aString) {
+            aString = prompt("Give me a word");
+            // return aString[-1].substring();
+            return aString.charAt(aString.length - 1);
+        }
+
+        console.log(lastLetter());
+    </script>
+</body>
+</html>
