@@ -22,3 +22,8 @@ body {
   height: 410px;
   overflow: auto;
 }
+
+.outtput {
+  height: 100px;
+  overflow: auto;
+}
